@@ -2,4 +2,8 @@
 
 	echo "Tipo de dados em PHP"
 
+	
+
+
+
 ?>

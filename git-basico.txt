@@ -1,0 +1,26 @@
+Configurar nome e email:
+
+config --global user.name ""
+config --global user.email ""
+
+
+
+Para iniciar um repositório git:
+
+1 - Va para a pasta desejada pelo CMD;
+2 - escreva: git init;
+3 - Será criado uma pasta oculta na sua pasta do projeto \.git
+
+Para adicionar o seu repositório do GITHUB para funcionar a sua maquina com o servidor remoto: git remote add origin https://github.com/jhonnydevbr/PHP.git
+
+Para enviar os arquivos que você criou, deletou ou modificou para uma "stage área (os arquivos ficaram aguardando por um comando para enviar para o servidor remoto"): git add --all
+
+Para confirmar o git add --all é com o comando: git commit -m "Digite aqui sua mensagem";
+
+Origin é uma variável para o link de um determinado repositório no GITHUB... Poderia ser qualquer outro nome, origin somente é um padrão.
+
+Agora, após o commit, temos que enviar os arquivos para o servidor remoto, com o comando: git push origin master
+
+Master é o Branch padrão do GitHub, caso tivesse outros branch, apensar mudar o nome no comando.
+
+Para atualizar o seus arquivos, caso um amigo tenha efetuado alguma alteração, usamos o comando: git pull origin master

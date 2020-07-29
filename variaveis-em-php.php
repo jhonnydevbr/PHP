@@ -41,5 +41,13 @@
 
 	echo $cliente;
 
+	//Ecopo de Variaveis
+
+	//Cada função tem o seu Escopo function{ ..escopo }, <?php ..escopo ..
+
+	//Toda variavel declarada em algum escopo, só podera ser usada no mesmo escopo. Para que a variavél seja usada em outros escopos, declare a variavel como "global $nomeDaVariavel" dentro do escopo que deseja usa-la;
+
+
+
 	
 ?>

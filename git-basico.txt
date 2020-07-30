@@ -13,11 +13,11 @@ Para iniciar um repositório git:
 
 Para adicionar o seu repositório do GITHUB para funcionar a sua maquina com o servidor remoto: git remote add origin https://github.com/jhonnydevbr/PHP.git
 
-Para enviar os arquivos que você criou, deletou ou modificou para uma "stage área (os arquivos ficaram aguardando por um comando para enviar para o servidor remoto"): git add --all
+Origin é uma variável para o link de um determinado repositório no GITHUB... Poderia ser qualquer outro nome, origin somente é um padrão.
+
+Para enviar os arquivos que você criou, deletou ou modificou para uma "stage área (os arquivos ficaram aguardando por um comando para enviar para o servidor remoto"): git add --all... para enviar somente 1 arquivo: git add nome-do-arquivo.php
 
 Para confirmar o git add --all é com o comando: git commit -m "Digite aqui sua mensagem";
-
-Origin é uma variável para o link de um determinado repositório no GITHUB... Poderia ser qualquer outro nome, origin somente é um padrão.
 
 Agora, após o commit, temos que enviar os arquivos para o servidor remoto, com o comando: git push origin master
 

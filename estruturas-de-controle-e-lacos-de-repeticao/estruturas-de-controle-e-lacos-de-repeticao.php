@@ -3,6 +3,7 @@
 	echo "Estruturas de Controle e Laços de Repetição"; echo "<br>";
 
 	// Servem para controlar o fluxo no sistema, para tomar as ações necessárias de acordo com determinada situação.
+	
 	echo "IF";	echo "<br>";
 
 	//// IF ////
@@ -76,6 +77,20 @@
 			break;	
 		}
 
+		echo "<br>";
+		echo "<br>";
+		echo "<br>";
+		echo "<br>";
+
+	////////////////////////////////////////////
+
+	///////////////// LAÇOS DE REPETIÇÕES: FOR, FOR EACH E WHILE /////////////////
+
+	//// FOR ////
+		
+		//Utilizado como contador, tem inicio e fim, e tem decremento ou incremento;
+
+		echo "FOR";	echo "<br>";
 
 
 

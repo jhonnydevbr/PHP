@@ -114,8 +114,25 @@
 
 		}
 
+		//Cuidado com o FOR
+
+			//Nesse caso, o i está diminuindo, ou seja, ele nunca vai ser 0, vai ser -1, -2 e etc...
+			//E pode até cair o servidor por causa disso.
+
+		/*for ($i=0; $i < 10; $i--) { 
+			
+			echo $i . " ";
+		}*/
 
 
+		echo "<select>";
+
+			for ($i=date("Y"); $i >= date("Y")-100; $i--) { 
+				
+				echo '<option value="'.$i.'">'.$i.'</option>';
+			}
+
+		echo "</select>";
 
 		
 

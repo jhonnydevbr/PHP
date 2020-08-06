@@ -160,7 +160,8 @@
 		}
 
 ?>
-
+	
+	<!-- Exemplo com formulario -->
 	<form>
 		<input type="text" name="nome">
 		<input type="date" name="nascimento">
@@ -178,3 +179,27 @@
 	?>
 </body>
 </html>
+
+<?php
+	
+	////// WHILE ////////
+		//Faça enquanto, utilizando muito para pegar dados do banco de dados
+		//do while executa somente 1 vez
+
+	$condicao = true;
+
+	while ($condicao) {
+		
+		$numero = rand(1, 10);
+
+		if ($numero === 3) {
+			echo "TRES";
+			$condicao = false;
+		}
+
+		echo $numero . " ";
+
+	}
+
+
+?>

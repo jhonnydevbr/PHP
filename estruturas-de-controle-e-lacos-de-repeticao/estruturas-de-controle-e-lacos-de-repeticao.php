@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
 <?php
 
 	echo "Estruturas de Controle e Laços de Repetição"; echo "<br>";
@@ -88,7 +96,6 @@
 
 	//// FOR ////
 		
-		//Utilizado como contador, tem inicio e fim, e tem decremento ou incremento;
 
 		echo "FOR";	echo "<br>";
 
@@ -134,6 +141,40 @@
 
 		echo "</select>";
 
+
+	//// FOREACH ////
 		
+		// Utilizado para percorrer Arrays e coleções.
+
+
+		$meses = array(
+			"Janeiro","Fevereiro","Março","Abril","Maio",
+			"Junho","Julho","Agosto","Setembro","Outubro",
+			"Novembro","Dexembro");
+
+		foreach ($meses as $index => $mes) {
+			
+			echo "Indice: ".$index."<br>";
+			echo "O mês é: " .$mes."<br>";
+
+		}
 
 ?>
+
+	<form>
+		<input type="text" name="nome">
+		<input type="date" name="nascimento">
+		<input type="submit" value="enviar">
+	</form>
+	<?php
+
+		foreach ($_GET as $key => $value) {
+
+			echo "Nome do campo: ".$key."<br>";
+			echo "Valor do campo ".$value."<br>";
+			echo "<hr>";
+
+		}
+	?>
+</body>
+</html>

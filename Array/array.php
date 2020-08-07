@@ -31,5 +31,25 @@
 
 	// Funções em Arrays:
 
+	$pessoas = array();
+
+	// Adicionar um item no array depois de criado:
+
+	array_push($pessoas, array(
+
+		'nome'=>'joão',
+		'idade'=>20
+
+	));
+
+	array_push($pessoas, array(
+
+		'nome'=>'maria',
+		'idade'=>25
+
+	));
+
+	// Exibir dados do Array
+	print_r($pessoas);
 
 ?>

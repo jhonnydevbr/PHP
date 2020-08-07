@@ -5,16 +5,19 @@
 
 	// Sessão
 
-		// A partir do momento em que o usuário acessa o site, uma sessão é criada entre o cliente e o servidor
+		// A partir do momento em que o usuário acessa o site, uma sessão é criada entre o cliente e o servidor+
+
+	// Excluir sessao, limpa variavel
+		//session_unset($_SESSION['nome']);
+
+	// Exlui sessão e usuario
+		//session_destroy();
 
 	session_start();
 
 	$_SESSION['nome'] = "Hcode";
 
-	// Excluir sessao, limpa variavel
-	session_unset($_SESSION['nome']);
-	// Exlui sessão e usuario
-	session_destroy();
+
 
 
 ?>
